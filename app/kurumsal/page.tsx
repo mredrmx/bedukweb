@@ -111,6 +111,47 @@ export default function Kurumsal() {
           </div>
         </section>
 
+        {/* Factory Gallery Section */}
+        <section className="py-12 bg-slate-100/40 dark:bg-slate-900/30 border-y border-slate-200 dark:border-slate-800">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="relative group overflow-hidden rounded-2xl h-64 shadow-md border border-slate-200/50 dark:border-slate-800/50">
+                <img
+                  src="https://static.wixstatic.com/media/14c4c5_44096d78a8b44cc5a9dc8d3b3df224d7~mv2.jpg"
+                  alt="Bedük Group Samsun Fabrikası"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent flex items-end p-6">
+                  <span className="text-white font-display font-bold text-lg">Samsun Fabrikamız</span>
+                </div>
+              </div>
+              <div className="relative group overflow-hidden rounded-2xl h-64 shadow-md border border-slate-200/50 dark:border-slate-800/50">
+                <img
+                  src="https://static.wixstatic.com/media/14c4c5_567d6fa1aecc41e2a6b03c9da38088af~mv2.jpg"
+                  alt="CNC Profil Kesim & İşleme Hattı"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent flex items-end p-6">
+                  <span className="text-white font-display font-bold text-lg">CNC Kesim & İmalat</span>
+                </div>
+              </div>
+              <div className="relative group overflow-hidden rounded-2xl h-64 shadow-md border border-slate-200/50 dark:border-slate-800/50">
+                <img
+                  src="https://static.wixstatic.com/media/14c4c5_ae62c7f746724a6d82d138af03bc35c8~mv2.jpg"
+                  alt="Özenli İmalat & Montaj"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent flex items-end p-6">
+                  <span className="text-white font-display font-bold text-lg">Hassas Profil Montajı</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Manufacturing Capacity */}
         <section className="py-24 bg-slate-900 text-white relative overflow-hidden">
           <div className="absolute top-1/4 right-1/4 w-[300px] h-[300px] rounded-full bg-brand-accent/5 blur-[120px] pointer-events-none" />

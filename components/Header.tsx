@@ -24,13 +24,12 @@ export default function Header() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center space-x-2">
-                <span className="font-display font-extrabold text-2xl tracking-wider bg-gradient-to-r from-brand-blue via-brand-accent to-indigo-500 bg-clip-text text-transparent">
-                  BEDÜK
-                </span>
-                <span className="font-display font-medium text-xs tracking-widest text-slate-400 dark:text-slate-500 uppercase pt-1.5">
-                  Group
-                </span>
+              <Link href="/" className="flex items-center">
+                <img
+                  src="https://static.wixstatic.com/media/14c4c5_6cb118b72fb14c20afb6b6efcb0d9f28~mv2.png"
+                  alt="Bedük Group"
+                  className="h-10 w-auto object-contain dark:brightness-0 dark:invert"
+                />
               </Link>
             </div>
 

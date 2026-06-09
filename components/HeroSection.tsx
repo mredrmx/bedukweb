@@ -6,10 +6,19 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden grid-bg py-20">
-      {/* Background Gradients */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-brand-blue/10 blur-[120px] pointer-events-none" />
-      <div className="absolute top-1/3 left-1/3 w-[300px] h-[300px] rounded-full bg-brand-accent/10 blur-[100px] pointer-events-none" />
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden py-20 bg-slate-950 text-white">
+      {/* Background Image with Overlay */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center opacity-25 pointer-events-none" 
+        style={{ backgroundImage: `url('https://static.wixstatic.com/media/14c4c5_ac56c3cfb6d04c938bb03ff621223ff2~mv2.jpg')` }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-950/20 via-slate-950/70 to-slate-950 pointer-events-none" />
+      {/* Grid Pattern overlay */}
+      <div className="absolute inset-0 grid-bg opacity-10 pointer-events-none" />
+      
+      {/* Ambient Glows */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-brand-blue/15 blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/3 left-1/3 w-[300px] h-[300px] rounded-full bg-brand-accent/15 blur-[100px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">

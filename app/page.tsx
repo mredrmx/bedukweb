@@ -16,8 +16,9 @@ export default function Home() {
         "Yüksek Isı ve Ses Yalıtımı",
         "Milimetrik CNC Hassasiyetinde Kesim",
       ],
-      href: "/urunlerimiz",
+      href: "/urunlerimiz#pvc",
       icon: <Grid className="w-6 h-6" />,
+      image: "https://static.wixstatic.com/media/14c4c5_78b30133006146d19602edfaecc3bed4~mv2.jpg",
     },
     {
       title: "Cam Balkon Sistemleri",
@@ -28,8 +29,9 @@ export default function Home() {
         "Winnice Marka Çözüm Ortaklığı",
         "Estetik ve Geniş Görüş Açısı",
       ],
-      href: "/urunlerimiz",
+      href: "/urunlerimiz#cam-balkon",
       icon: <Layers className="w-6 h-6" />,
+      image: "https://static.wixstatic.com/media/14c4c5_f3119325a28448f4bc7c80740fa55a1d~mv2.jpeg",
     },
     {
       title: "Giyotin Cam Sistemleri",
@@ -40,8 +42,9 @@ export default function Home() {
         "Isıcam Uyumlu Profil Yapısı",
         "Sessiz ve Akıcı Çalışma Mekanizması",
       ],
-      href: "/urunlerimiz",
+      href: "/urunlerimiz#giyotin",
       icon: <Maximize2 className="w-6 h-6" />,
+      image: "https://static.wixstatic.com/media/14c4c5_d21fe1aec7174ee1a998c3def23f63d8~mv2.jpg",
     },
     {
       title: "Bioklimatik Pergola & Kış Bahçesi",
@@ -52,8 +55,9 @@ export default function Home() {
         "Entegre LED Aydınlatma Altyapısı",
         "Kar ve Rüzgar Yüküne Yüksek Dayanım",
       ],
-      href: "/urunlerimiz",
+      href: "/urunlerimiz#pergola",
       icon: <Sun className="w-6 h-6" />,
+      image: "https://static.wixstatic.com/media/14c4c5_fcc21813066d4f43b4f7522cf8290af5~mv2.jpg",
     },
   ];
 
@@ -149,6 +153,7 @@ export default function Home() {
                   features={service.features}
                   href={service.href}
                   icon={service.icon}
+                  image={service.image}
                 />
               ))}
             </div>
@@ -161,19 +166,27 @@ export default function Home() {
             <span className="text-xs font-semibold text-slate-400 tracking-widest uppercase block mb-8">
               GÜÇLÜ İŞ ORTAKLARIMIZ VE ÇÖZÜM MARKALARI
             </span>
-            <div className="flex flex-wrap items-center justify-center gap-12 lg:gap-20 opacity-80 dark:opacity-60 grayscale hover:grayscale-0 transition-all duration-300">
-              <div className="font-display font-extrabold text-2xl tracking-widest text-slate-700 dark:text-slate-350">
-                ASAŞPEN
-              </div>
-              <div className="font-display font-bold text-2xl tracking-wider text-slate-700 dark:text-slate-350">
-                WINNICE
-              </div>
-              <div className="font-display font-black text-2xl tracking-normal text-slate-700 dark:text-slate-350">
-                BDKPEN
-              </div>
-              <div className="font-display font-semibold text-2xl tracking-wider text-slate-700 dark:text-slate-350">
-                WINPERAX
-              </div>
+            <div className="flex flex-wrap items-center justify-center gap-12 lg:gap-20 opacity-70 dark:opacity-50 grayscale hover:grayscale-0 transition-all duration-300">
+              <img
+                src="https://static.wixstatic.com/media/14c4c5_2d0caa440229407b896bc81accd5fae8~mv2.png"
+                alt="Asaşpen"
+                className="h-10 w-auto object-contain dark:brightness-0 dark:invert"
+              />
+              <img
+                src="https://static.wixstatic.com/media/14c4c5_8c6e19c5d6c44629806697a5831ab45e~mv2.png"
+                alt="Winnice"
+                className="h-10 w-auto object-contain dark:brightness-0 dark:invert"
+              />
+              <img
+                src="https://static.wixstatic.com/media/14c4c5_eafb586f8dd84d2f87b7f26b41c3a289~mv2.png"
+                alt="BDKPEN"
+                className="h-10 w-auto object-contain dark:brightness-0 dark:invert"
+              />
+              <img
+                src="https://static.wixstatic.com/media/14c4c5_8edb8f521cb044ff82d282a7702357c2~mv2.png"
+                alt="Winperax"
+                className="h-10 w-auto object-contain dark:brightness-0 dark:invert"
+              />
             </div>
           </div>
         </section>

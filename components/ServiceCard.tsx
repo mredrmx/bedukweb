@@ -8,14 +8,16 @@ interface ServiceCardProps {
   features: string[];
   href: string;
   icon: React.ReactNode;
+  image?: string;
 }
-
+ 
 export default function ServiceCard({
   title,
   description,
   features,
   href,
   icon,
+  image,
 }: ServiceCardProps) {
   return (
     <div className="group relative glass-effect rounded-2xl p-8 hover:-translate-y-1.5 transition-all duration-350 flex flex-col justify-between overflow-hidden shadow-md hover:shadow-2xl hover:shadow-blue-500/5">
@@ -23,6 +25,17 @@ export default function ServiceCard({
       <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/10 to-brand-accent/5 rounded-bl-[100px] pointer-events-none group-hover:scale-110 transition-transform duration-350" />
       
       <div>
+        {image && (
+          <div className="relative h-48 w-full overflow-hidden rounded-xl mb-6 border border-slate-200/50 dark:border-slate-800/50">
+            <img
+              src={image}
+              alt={title}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
+            />
+          </div>
+        )}
+
         {/* Icon Container */}
         <div className="inline-flex items-center justify-center p-3.5 rounded-xl bg-blue-500/5 text-brand-blue dark:text-brand-accent group-hover:bg-brand-blue group-hover:text-white transition-all duration-350 mb-6 shadow-sm">
           {icon}
