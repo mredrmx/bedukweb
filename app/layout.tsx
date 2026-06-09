@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -41,6 +42,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-sans bg-slate-50 text-slate-900 dark:bg-brand-dark dark:text-slate-100 selection:bg-brand-blue selection:text-white">
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );
