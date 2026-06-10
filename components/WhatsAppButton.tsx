@@ -3,11 +3,18 @@
 import { motion } from "framer-motion";
 import { MessageSquareCode } from "lucide-react";
 
+import { usePathname } from "next/navigation";
+
 export default function WhatsAppButton() {
+  const pathname = usePathname();
   const phoneNumber = "905398315399";
   const message = "Merhaba, web siteniz üzerinden ulaşıyorum. Ürünleriniz hakkında bilgi alabilir miyim?";
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  if (pathname && pathname.startsWith("/admin")) {
+    return null;
+  }
 
   return (
     <motion.div
