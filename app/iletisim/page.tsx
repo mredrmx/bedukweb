@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
+import MapSection from "@/components/MapSection";
 import { Phone, Mail, MapPin, Clock, ArrowRight, ExternalLink } from "lucide-react";
 
 export const metadata = {
@@ -63,7 +64,14 @@ export default function Iletisim() {
                     <ul className="space-y-3.5 text-xs sm:text-sm font-sans">
                       <li className="flex items-start space-x-3 text-slate-600 dark:text-slate-350">
                         <MapPin className="w-4 h-4 text-brand-blue flex-shrink-0 mt-0.5" />
-                        <span>Pazar Mah. 100. Yıl Bulvarı 63/B İlkadım - SAMSUN</span>
+                        <a
+                          href="https://maps.app.goo.gl/FgUmqdfYra2Jk9tr8"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-brand-blue transition-colors hover:underline"
+                        >
+                          Pazar Mah. 100. Yıl Bulvarı 63/B İlkadım - SAMSUN
+                        </a>
                       </li>
                       <li className="flex items-center space-x-3">
                         <Phone className="w-4 h-4 text-brand-blue" />
@@ -91,7 +99,14 @@ export default function Iletisim() {
                     <ul className="space-y-3.5 text-xs sm:text-sm font-sans">
                       <li className="flex items-start space-x-3 text-slate-600 dark:text-slate-350">
                         <MapPin className="w-4 h-4 text-brand-accent flex-shrink-0 mt-0.5" />
-                        <span>Toybelen Mh. Anadolu Bulvarı NO:168 İlkadım - SAMSUN</span>
+                        <a
+                          href="https://www.google.com/maps/search/?api=1&query=Toybelen+Mh.+Anadolu+Bulvar%C4%B1+NO:168+İlkad%C4%B1m+SAMSUN"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-brand-accent transition-colors hover:underline"
+                        >
+                          Toybelen Mh. Anadolu Bulvarı NO:168 İlkadım - SAMSUN
+                        </a>
                       </li>
                       <li className="flex items-center space-x-3">
                         <Phone className="w-4 h-4 text-brand-accent" />
@@ -124,26 +139,7 @@ export default function Iletisim() {
           </div>
         </section>
 
-        {/* Embedded Map Section Placeholder */}
-        <section className="h-[400px] w-full bg-slate-200 dark:bg-slate-900 border-t border-slate-250 dark:border-slate-800 relative flex items-center justify-center">
-          <div className="absolute inset-0 grid-bg opacity-30 pointer-events-none" />
-          <div className="text-center space-y-4 max-w-sm px-6 relative z-10">
-            <MapPin className="w-10 h-10 text-brand-blue mx-auto" />
-            <h3 className="font-display font-bold text-slate-800 dark:text-white">İlkadım / Samsun Tesislerimiz</h3>
-            <p className="text-xs text-slate-500 dark:text-slate-400 font-sans leading-relaxed">
-              Google Haritalar üzerinden Showroom veya Fabrikamıza yol tarifi almak için aşağıdaki bağlantıyı kullanabilirsiniz.
-            </p>
-            <a
-              href="https://maps.google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 text-xs font-bold text-brand-blue dark:text-brand-accent hover:underline uppercase"
-            >
-              <span>Haritada Göster</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-          </div>
-        </section>
+        <MapSection />
       </main>
 
       <Footer />

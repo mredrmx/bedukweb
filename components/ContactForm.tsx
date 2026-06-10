@@ -42,7 +42,7 @@ export default function ContactForm() {
 
   const validate = (): boolean => {
     const tempErrors: FormErrors = {};
-    
+
     if (!formData.name.trim()) {
       tempErrors.name = "Adınız ve soyadınız gereklidir.";
     } else if (formData.name.trim().length < 3) {
@@ -89,7 +89,7 @@ export default function ContactForm() {
     if (!validate()) return;
 
     setIsSubmitting(true);
-    
+
     try {
       const response = await fetch("/api/submissions", {
         method: "POST",
@@ -152,10 +152,9 @@ export default function ContactForm() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Ahmet Yılmaz"
-                  className={`w-full px-4 py-3.5 rounded-xl text-sm bg-slate-100/50 dark:bg-slate-900/50 border ${
-                    errors.name ? "border-red-500/80 focus:border-red-500" : "border-slate-200 dark:border-slate-800 focus:border-brand-blue"
-                  } outline-none transition-colors`}
+                  placeholder="Ali Veli"
+                  className={`w-full px-4 py-3.5 rounded-xl text-sm bg-slate-100/50 dark:bg-slate-900/50 border ${errors.name ? "border-red-500/80 focus:border-red-500" : "border-slate-200 dark:border-slate-800 focus:border-brand-blue"
+                    } outline-none transition-colors`}
                 />
                 {errors.name && (
                   <span className="flex items-center space-x-1 text-xs text-red-500 mt-1">
@@ -176,10 +175,9 @@ export default function ContactForm() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="0532 739 08 59"
-                  className={`w-full px-4 py-3.5 rounded-xl text-sm bg-slate-100/50 dark:bg-slate-900/50 border ${
-                    errors.phone ? "border-red-500/80 focus:border-red-500" : "border-slate-200 dark:border-slate-800 focus:border-brand-blue"
-                  } outline-none transition-colors`}
+                  placeholder="0555 555 55 55"
+                  className={`w-full px-4 py-3.5 rounded-xl text-sm bg-slate-100/50 dark:bg-slate-900/50 border ${errors.phone ? "border-red-500/80 focus:border-red-500" : "border-slate-200 dark:border-slate-800 focus:border-brand-blue"
+                    } outline-none transition-colors`}
                 />
                 {errors.phone && (
                   <span className="flex items-center space-x-1 text-xs text-red-500 mt-1">
@@ -202,10 +200,9 @@ export default function ContactForm() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="ahmet@example.com"
-                  className={`w-full px-4 py-3.5 rounded-xl text-sm bg-slate-100/50 dark:bg-slate-900/50 border ${
-                    errors.email ? "border-red-500/80 focus:border-red-500" : "border-slate-200 dark:border-slate-800 focus:border-brand-blue"
-                  } outline-none transition-colors`}
+                  placeholder="aliveli@example.com"
+                  className={`w-full px-4 py-3.5 rounded-xl text-sm bg-slate-100/50 dark:bg-slate-900/50 border ${errors.email ? "border-red-500/80 focus:border-red-500" : "border-slate-200 dark:border-slate-800 focus:border-brand-blue"
+                    } outline-none transition-colors`}
                 />
                 {errors.email && (
                   <span className="flex items-center space-x-1 text-xs text-red-500 mt-1">
@@ -248,9 +245,8 @@ export default function ContactForm() {
                 onChange={handleChange}
                 rows={5}
                 placeholder="Ölçülerinizi ya da aklınızdaki projeyi buraya yazarak hızlı teklif alabilirsiniz..."
-                className={`w-full px-4 py-3.5 rounded-xl text-sm bg-slate-100/50 dark:bg-slate-900/50 border ${
-                  errors.message ? "border-red-500/80 focus:border-red-500" : "border-slate-200 dark:border-slate-800 focus:border-brand-blue"
-                } outline-none transition-colors resize-none`}
+                className={`w-full px-4 py-3.5 rounded-xl text-sm bg-slate-100/50 dark:bg-slate-900/50 border ${errors.message ? "border-red-500/80 focus:border-red-500" : "border-slate-200 dark:border-slate-800 focus:border-brand-blue"
+                  } outline-none transition-colors resize-none`}
               />
               {errors.message && (
                 <span className="flex items-center space-x-1 text-xs text-red-500 mt-1">

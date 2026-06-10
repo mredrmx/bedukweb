@@ -100,14 +100,28 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" />
                 <div>
                   <span className="font-semibold text-white block text-xs tracking-wider uppercase mb-0.5">Showroom</span>
-                  <span className="text-slate-400">Pazar Mah. 100. Yıl Bulvarı 63/B İlkadım / Samsun</span>
+                  <a
+                    href="https://maps.app.goo.gl/FgUmqdfYra2Jk9tr8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-400 hover:text-white transition-colors hover:underline"
+                  >
+                    Pazar Mah. 100. Yıl Bulvarı 63/B İlkadım / Samsun
+                  </a>
                 </div>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-brand-accent flex-shrink-0 mt-0.5" />
                 <div>
                   <span className="font-semibold text-white block text-xs tracking-wider uppercase mb-0.5">Fabrika</span>
-                  <span className="text-slate-400">Toybelen Mh. Anadolu Bulvarı No:168 İlkadım / Samsun</span>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Toybelen+Mh.+Anadolu+Bulvar%C4%B1+NO:168+İlkad%C4%B1m+SAMSUN"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-400 hover:text-white transition-colors hover:underline"
+                  >
+                    Toybelen Mh. Anadolu Bulvarı No:168 İlkadım / Samsun
+                  </a>
                 </div>
               </li>
               <li className="flex items-center space-x-3">
