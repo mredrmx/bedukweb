@@ -1,16 +1,8 @@
 import { NextResponse } from "next/server";
 import { getSubmissions, updateSubmissionStatus, deleteSubmission } from "@/lib/db";
 
-// Helper to check if authorized
-function isAuthorized(request: Request) {
-  const authHeader = request.headers.get("authorization");
-  if (!authHeader || !authHeader.startsWith("Bearer ")) {
-    return false;
-  }
-  const token = authHeader.split(" ")[1];
-  const correctPassword = process.env.ADMIN_PASSWORD || "beduk123";
-  return token === correctPassword;
-}
+import { isAuthorized } from "@/lib/auth";
+
 
 export async function GET(request: Request) {
   if (!isAuthorized(request)) {

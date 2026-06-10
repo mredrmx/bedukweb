@@ -1,0 +1,256 @@
+[
+  {
+    "id": 1,
+    "category": "pvc",
+    "name": "İnova 76",
+    "description": "76 mm genişliğindeki özel tasarım profil yapısı ile yüksek ses ve ısı yalıtımı arayan konut projeleri için ideal çözümdür. Geniş yanak odacıklarıyla statik dayanımı üst düzeydedir.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_607933fb1cfd45f2b041129ba5d88d7f~mv2.jpg",
+    "brand": "ASAŞPEN",
+    "specs": [
+      "76 mm Geniş Profil Yanakları",
+      "Çok Odacıklı Isı/Ses Yalıtım Odaları",
+      "Estetik Köşe Birleşim Noktaları",
+      "10 Yıl Sistem ve Malzeme Garantisi"
+    ],
+    "sortOrder": 1,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 2,
+    "category": "pvc",
+    "name": "İnova 76 Orta Contalı",
+    "description": "İç, dış ve orta olmak üzere 3'lü conta bariyeri ile Karadeniz'in şiddetli rüzgar ve yağmurlarına karşı %100 sızdırmazlık sunar.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_895993fb02414881828ae4131d6763f9~mv2.jpeg",
+    "brand": "ASAŞPEN",
+    "specs": [
+      "3 Conta Bariyerli Sızdırmazlık",
+      "Yüksek Basınçlı Rüzgar Mukavemeti",
+      "Çift ve Üçlü Isıcam Alternatifleri",
+      "Enerji Tasarruflu Profil Yapısı"
+    ],
+    "sortOrder": 2,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 3,
+    "category": "pvc",
+    "name": "İnova Yalıtımlı Sürme",
+    "description": "Geniş açılımlı kapılar için tasarlanan, fırça yerine özel contalarla basarak sızdırmazlık değerlerini maksimuma çıkaran sürme seri.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_78b30133006146d19602edfaecc3bed4~mv2.jpg",
+    "brand": "ASAŞPEN",
+    "specs": [
+      "Özel Conta Baskı Teknolojisi",
+      "Sürtünmesiz Sessiz Kayar Raylar",
+      "Geniş Görüş Alanlı Cam Açıklığı",
+      "Maksimum Hava ve Su Yalıtımı"
+    ],
+    "sortOrder": 3,
+    "createdAt": "2026-06-10T10:12:49.529Z",
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "category": "pvc",
+    "name": "Hebe-Schiebe (Kaldırmalı Sürme)",
+    "description": "Lüks mimari projelerde, devasa cam panellerin tek parmak hareketiyle kaldırılıp sessizce yana kaydırılmasını sağlayan üst düzey mekanizma.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_d4841e9faa2949ec95c590ed84f163c9~mv2.jpeg",
+    "brand": "ASAŞPEN",
+    "specs": [
+      "Kaldırmalı/Sürmeli Güçlü Mekanizma",
+      "400 kg Yük Taşıma Kapasitesi",
+      "Eşik Yüksekliği Olmayan Tasarım",
+      "Lüks Mimari Ayrıcalıklar"
+    ],
+    "sortOrder": 4,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 5,
+    "category": "pvc",
+    "name": "Sürme Sistem 74",
+    "description": "Ekonomik, pratik ve yalıtım değerlerini koruyan, balkon çıkışları ve yazlık projeler için tasarlanmış sürme doğrama alternatifi.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_322bdf5027304a4a879db4d8c80e44d5~mv2.jpg",
+    "brand": "ASAŞPEN",
+    "specs": [
+      "Ekonomik Yatırım Çözümü",
+      "Pratik Kullanım & Çift Ray Seçeneği",
+      "İnce Profil Profil Çerçevesi",
+      "Asaşpen Kalite Standartları"
+    ],
+    "sortOrder": 5,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 6,
+    "category": "cam-balkon",
+    "name": "Alya / Alya Plus Katlanır Cam Balkon",
+    "description": "Türkiye'de ilk metal park sistemli faydalı modele sahip, özel damlalıklı su tahliye profili barındıran modern tasarım. Alya Plus serisinde 4+22+2 çift cam ile kış bahçesi konforunda yalıtım sağlanır.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_0b25c429949d472bb385d8cc3473dcfb~mv2.jpg",
+    "brand": "WINNICE",
+    "specs": [
+      "Özel Su Tahliye Sistemi",
+      "İspanyolet Kilit Donanımı",
+      "Metal Park Sistemli",
+      "Isıcamlı (4+22+2) Çift Cam Desteği"
+    ],
+    "sortOrder": 6,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 7,
+    "category": "cam-balkon",
+    "name": "BDK Katlanır Cam Balkon",
+    "description": "Fiyat/performans odaklı projeleriniz için tasarlanan BDK serisi, estetik ve sağlamlığı bütçe avantajı ile birlikte sunar. Kolay açılır kanat yapısı ve çift emniyet kilitleri mevcuttur.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_3c2154b2427f41b98960ec2acb985e38~mv2.jpg",
+    "brand": "BDK SİSTEM",
+    "specs": [
+      "Ekonomik Yatırım Maliyeti",
+      "Temperli Emniyet Camı (8mm)",
+      "Çift Rulmanlı Teker Yapısı",
+      "Estetik Profil Tasarımı"
+    ],
+    "sortOrder": 7,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 8,
+    "category": "cam-balkon",
+    "name": "Slide Leon / Slide Leon Plus Sürme Cam",
+    "description": "Eşikli veya eşiksiz alüminyum raylar üzerinde yatay hareket eden sürme cam paneller. Balkon alanlarında yer kaybını sıfıra indirir. Slide Leon Plus modelinde çift cam ısı yalıtımı entegredir.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_b96a7cc2151d47a68ad93bc6f59bd6fb~mv2.jpg",
+    "brand": "WINNICE",
+    "specs": [
+      "Eşikli ve Eşiksiz Alternatifleri",
+      "Minimum Alan Kaybı",
+      "Dahili Toz ve Rüzgar Fırçaları",
+      "Kayar Panel İzolasyon Contaları"
+    ],
+    "sortOrder": 8,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 9,
+    "category": "giyotin",
+    "name": "GioSafe Giyotin Cam Balkon",
+    "description": "GioSafe; dikey yönde hareket eden, uzaktan kumandalı akıllı cam balkon sistemidir. Piyasadaki mevcut sistemlerin eksikleri ve kronik arızaları ayrıntılı incelenerek; kullanıcı emniyeti ve maksimum yalıtım kriterleri eklenerek tasarlanmıştır.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_d21fe1aec7174ee1a998c3def23f63d8~mv2.jpg",
+    "brand": "WINNICE",
+    "specs": [
+      "Krom Paslanmaz Zincir ve Dişliler",
+      "Safety Use Çocuk Kilidi",
+      "Estetik Korkuluk Trabzan Profili",
+      "3 mm Çelik Makaslar",
+      "Çift Taraflı Kollu İspanyolet"
+    ],
+    "sortOrder": 9,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 10,
+    "category": "pergola",
+    "name": "Güneş Koruması",
+    "description": "Alüminyum tavan panellerinin yönünü uzaktan kumanda ile 45°, 90° ve 135° açılara ayarlayarak güneş ışınlarını dilediğiniz gibi kontrol edebilirsiniz.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_0cea8c5fe3eb43adb9f31cd439b1d6fd~mv2.jpg",
+    "brand": "WINPERAX MAGIC ROOF",
+    "specs": [
+      "45°, 90°, 135° Yönlendirme Açıları",
+      "Güneş Işınlarından Tam Koruma",
+      "Motorlu Kumanda Altyapısı"
+    ],
+    "sortOrder": 10,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 11,
+    "category": "pergola",
+    "name": "Yağışlardan Korunma",
+    "description": "Özel tasarlanmış tırnaklı alüminyum paneller suyu toplayarak yan taşıyıcı kolonlar içindeki gizli gider hatları ile pergolanın dışına sızdırmadan aktarır.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_703f4da83acf4572aeeaf3ebeceee4f9~mv2.jpg",
+    "brand": "WINPERAX MAGIC ROOF",
+    "specs": [
+      "Gizli Kolon İçi Yağmur Olukları",
+      "Kilitli Su Sızdırmaz Diş Yapısı",
+      "Maksimum Su İzolasyonu"
+    ],
+    "sortOrder": 11,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 12,
+    "category": "pergola",
+    "name": "Çevresel LED Işık",
+    "description": "Mimarinize entegre edilen çevresel led aydınlatma sistemi sayesinde pergola alanınız hem içeriden hem dışarıdan göz kamaştırıcı ve prestijli bir görüntü kazanır.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_2c8d1c96a0074a4da7badaf115a75c23~mv2.jpg",
+    "brand": "WINPERAX MAGIC ROOF",
+    "specs": [
+      "Mimari LED Entegrasyon",
+      "İç ve Dış Çevresel Estetik",
+      "Enerji Tasarruflu LED Teknolojisi"
+    ],
+    "sortOrder": 12,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 13,
+    "category": "pergola",
+    "name": "Doğal Havalandırma",
+    "description": "Panel açıları sayesinde yazın iç mekandaki sıcak havayı tahliye ederek ferah havalandırma sağlar, kışın ise tam kapatılarak iç ortam sıcaklığını muhafaza eder.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_b40ed0bceedc4f1eac1b44925752458c~mv2.jpg",
+    "brand": "WINPERAX MAGIC ROOF",
+    "specs": [
+      "Isı Korunum Hesaplaması",
+      "Sıcak/Soğuk Denge Ayarı",
+      "İç Ortam Hava Sirkülasyonu"
+    ],
+    "sortOrder": 13,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 14,
+    "category": "pergola",
+    "name": "Entegre LED Spotlar",
+    "description": "Paneller arasına entegre edilmiş Samsung/Osram led aydınlatmalar ile gözü yormayan, son derece şık ambiyanslar yaratırsınız.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_7b10990e4c5445aa8770e4f100f3333c~mv2.jpg",
+    "brand": "WINPERAX MAGIC ROOF",
+    "specs": [
+      "Paneller Arası Entegre Spotlar",
+      "Samsung / Osram LED Donanımı",
+      "Dimmer (Işık Seviye) Desteği"
+    ],
+    "sortOrder": 14,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 15,
+    "category": "pergola",
+    "name": "Mükemmel İzolasyon",
+    "description": "Tavan panellerinin uç kısımlarındaki tırnaklı kilit mekanizmaları sayesinde sistem tam kapatıldığında rüzgar ve kar geçişini sıfırlayan sızdırmazlık elde edilir.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_1db6b937d9f043bc978d2029f6a53a3b~mv2.jpg",
+    "brand": "WINPERAX MAGIC ROOF",
+    "specs": [
+      "Tırnaklı Geçme Kilit Sistemi",
+      "Kar ve Rüzgar Mukavemeti",
+      "Hava Sızdırmaz Özel Mastik/Conta"
+    ],
+    "sortOrder": 15,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  },
+  {
+    "id": 16,
+    "category": "aluminyum",
+    "name": "Alüminyum Mimari Cephe Sistemleri",
+    "description": "Plaza ve ticari yapılar için yüksek mukavemetli alüminyum silikon ve kapaklı cephe giydirme çözümleri.",
+    "imageUrl": "https://static.wixstatic.com/media/14c4c5_8b3338ede0034857a99f10b49c6a9d6b~mv2.jpg",
+    "brand": "BEDÜK MİMARİ",
+    "specs": [
+      "Kapaklı ve Silikon Giydirme Cephe Sistemleri",
+      "Isı yalıtımlı lüks kapı ve pencere doğramaları",
+      "Ofis içi minimalist alüminyum ve cam ara bölme modülleri",
+      "Geniş cam açıklıklar için yalıtımlı Hebe-Schiebe sürme kapılar",
+      "Uluslararası standartlarda fırın boyalı eloksal renk çeşitleri",
+      "Deprem dayanımlı ve yüksek rüzgar dirençli statik profil mukavemeti"
+    ],
+    "sortOrder": 16,
+    "createdAt": "2026-06-10T10:12:49.529Z"
+  }
+]

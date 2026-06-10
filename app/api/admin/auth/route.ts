@@ -3,16 +3,18 @@ import { NextResponse } from "next/server";
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { password } = body;
+    const { username, password } = body;
 
+    const correctUsername = process.env.ADMIN_USERNAME || "admin";
     const correctPassword = process.env.ADMIN_PASSWORD || "beduk123";
 
-    if (password === correctPassword) {
-      // Return the token (we can just use the password itself as a simple bearer token)
-      return NextResponse.json({ success: true, token: password });
+    if (username === correctUsername && password === correctPassword) {
+      // Return the token as base64 representation of username:password
+      const token = Buffer.from(`${username}:${password}`).toString("base64");
+      return NextResponse.json({ success: true, token });
     } else {
       return NextResponse.json(
-        { error: "Geçersiz şifre." },
+        { error: "Geçersiz kullanıcı adı veya şifre." },
         { status: 401 }
       );
     }
