@@ -29,6 +29,7 @@ import {
   EyeOff
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 interface Submission {
   id: string | number;
@@ -60,6 +61,7 @@ interface Category {
 }
 
 export default function AdminPage() {
+  const router = useRouter();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -157,6 +159,7 @@ export default function AdminPage() {
     setCategories([]);
     setUsername("");
     setPassword("");
+    router.push("/");
   };
 
   const fetchSubmissions = async (token?: string) => {

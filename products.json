@@ -29,7 +29,8 @@
       "Enerji Tasarruflu Profil Yapısı"
     ],
     "sortOrder": 2,
-    "createdAt": "2026-06-10T10:12:49.529Z"
+    "createdAt": "2026-06-10T10:12:49.529Z",
+    "isActive": true
   },
   {
     "id": 3,
